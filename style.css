@@ -1,0 +1,190 @@
+/* 
+Theme Name: New Jersey
+Description: This theme is created and solely owned by Rakesh & it belong's to the category of Blog
+Author: Rakesh
+Author URI: //https://stormingrakesh45.github.io/RakeshPortfolio//
+Version:1.1
+
+*/
+
+
+
+/* hi */
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 5%;
+    padding: 5px;
+    color: aqua;
+    transition: transform 0.3s ease;
+     
+}
+
+/* .navbar:hover{
+
+    border-bottom: 1px solid white; 
+} */
+
+ 
+.logo{
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    
+     
+}
+
+.primarymenu{
+
+    display: flex;
+     align-items: center;
+}
+
+.primary-menu-list {
+    list-style: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display menu items horizontally */
+}
+
+.primary-menu-list li {
+    margin-left: 20px; /* Add spacing between menu items */
+    margin-right: 20px;
+}
+
+.primary-menu-list li:first-child {
+    margin-left: 0; /* Remove margin from the first menu item */
+}
+
+.primary-menu-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set the color of the links */
+    font-weight: bold; /* Optionally set font weight */
+}
+
+.primary-menu-list li a:hover{
+
+    color:  #17C3B2;
+}
+
+
+.page-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 2%;
+
+}
+
+
+.container h1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 2%;
+}
+.container p{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 4%;
+    color: white;
+}
+
+.container button {
+    background-color: rgb(253, 39, 39);
+    color: white;
+    padding: 10px 20px; /* Adjust padding to increase button size */
+    border-radius: 5px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content; /* Set width to fit content */
+    margin: 5% auto; /* Center horizontally */
+}
+
+.container {
+    text-align: center; /* Center button within the container */
+}
+
+.container button:hover{
+
+    background-color: rgb(215, 0, 0);
+}
+
+
+#wpforms-131{
+
+    margin-left:30%;
+    margin-top: 2%;
+}
+
+#wpforms-submit-131{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.content{
+
+    margin: 2%;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+
+ 
+ 
+ 
+
+footer {
+    background: linear-gradient(135deg, #00796b, #2e7d32);
+    color: #fff;
+    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90%;
+    bottom: 0; 
+    opacity: 0.5;
+}
+footer:hover{
+
+    opacity: 1;
+}
+.footer-icons i{
+
+     
+     margin: 10px;
+     margin-top: 5px;
+    cursor: pointer;
+      
+}
+.footer-icons i:hover{
+
+    color: black;
+
+}
+
+ 
+
+  
